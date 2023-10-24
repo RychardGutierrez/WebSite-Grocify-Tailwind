@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Make websitge with Tailwind CSS</title>
+  </head>
+  <body
+    class="min-h-screen w-full bg-[url('../images/image.png')] bg-center bg-cover bg-no-repeat bg-dunes flex justify-center"
+  >
+    <div class="container py-10">
+      <header class="">
+        <nav class="flex flex-row items-center justify-between">
+          <img src="../images/logo.png" class="w-40 cursor-pointer" />
+          <ul class="text-white list-none flex flex-row gap-6">
+            <li><a href="#" class="no-underline">Home</a></li>
+            <li><a href="#" class="no-underline">About</a></li>
+            <li><a href="#" class="no-underline">Features</a></li>
+            <li><a href="#" class="no-underline">Contact</a></li>
+          </ul>
+          <img src="../images/cart.png" class="w-8 cursor-pointer" />
+        </nav>
+      </header>
+      <main class="text-white mt-48">
+        <section class="max-w-lg">
+          <h1 class="text-5xl font-semibold leading-normal">
+            Groceries
+            <p>Delivery in <span class="font-light">15 minutes</span></p>
+          </h1>
+
+          <p class="text-1xl">
+            Grocify offer a wide ranfe of products, including fresh products,
+            meats, diary, bbaked goods and non-perishable items.
+          </p>
+          <div class="mt-10">
+            <a
+              href="#"
+              class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium hover:bg-transparent duration-200 hover:border-2 hover:border-yellow-300"
+              >Order Now</a
+            >
+            <a
+              href="#"
+              class="bg-gray-700 rounded-3xl py-3 px-8 font-medium hover:bg-gray-800"
+              >Dowload App <span class="text-lg inline-block hover:rotate-90 duration-200">&#10148</span> </a
+            >
+          </div>
+        </section>
+        <img src="../images/grocery-image.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20 top-20">
+      </main>
+    </div>
+  </body>
+</html>
